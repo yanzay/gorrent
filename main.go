@@ -15,7 +15,7 @@ import (
 )
 
 var (
-	watchdir = flag.String("watchdir", "", "Watch dir to download torrents")
+	watchdir = flag.String("watchdir", "/home/osmc/watchdir", "Watch dir to download torrents")
 	link     = flag.String("link", "http://torrentrss.net/getrss.php?rsslink=rPEELP", "Link to RSS")
 )
 
