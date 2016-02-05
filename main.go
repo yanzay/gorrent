@@ -35,7 +35,7 @@ func main() {
 		return
 	}
 	var feed RSS
-	resp, err := http.Get("http://torrentrss.net/getrss.php?rsslink=rPEELP")
+	resp, err := http.Get(*link)
 	if err != nil {
 		log.Fatal(err)
 	}
